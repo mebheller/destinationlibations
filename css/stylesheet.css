@@ -1,0 +1,157 @@
+/* the font */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Rock+Salt');
+body {
+    position: relative;
+    top: -20px;
+    padding: 0;
+    margin: 0;
+}
+
+.bahamasa {
+display:flex;
+    justify-content:space-between;
+   font-family: 'Open Sans', sans-serif;
+   flex-direction:row;
+}
+    
+.navbar {
+     display:flex;
+     flex-direction: row;
+     justify-content:space-between;
+     position: relative;
+     padding:5px;
+     font-family: 'Rock Salt', cursive;
+    font-size: 20px;
+     width: 90%;
+     left:50px;
+    
+ }   
+ 
+ .navbar li{
+         text-decoration: none;
+              list-style-type:none;
+ }
+    /*unvisited link*/
+a:link {    
+ color: white;   
+ text-decoration: none;
+}
+
+/*visited link*/
+a:visited {
+color:white;    
+text-decoration: none;
+}
+ 
+.bahamasb {
+display:flex;
+    justify-content:space-around;
+    flex-direction:row-reverse;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.bahamacontent {
+    display:flex;
+    flex-direction: column;
+}
+
+.contenta {
+     display:flex;
+    flex-direction: column;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.bahamacontent p {
+     font-family: 'Open Sans', sans-serif;
+    
+}
+.bahamas_head{
+    display:flex;
+    justify-content:center;
+    font-family: 'Rock Salt', cursive;
+    font-size:16px;
+} 
+
+.bahama {
+    background-color:#37868A;
+}
+
+.ind li {
+   line-height: 1.5em;
+}    
+    
+.content {
+    padding: 20px;
+    width:80%;
+    margin:auto;
+}    
+    
+    
+/*.logo {*/
+/*    font-family: 'Rock Salt', cursive;*/
+    
+/*}    */
+   
+
+.banner {position: relative;
+         width:100%;
+         height: auto;
+         padding: 5px;
+}
+
+ .headers  {
+    position: relative;
+    bottom: -30;
+    
+}
+.headers h1 {
+    position: absolute;
+    font-size: 80px;
+    top:10%;
+    left:35%;
+    color: white;
+    font-family: 'Rock Salt', cursive;
+}
+
+ 
+.imagestext {padding:5px;
+             justify-content:space-between;
+             font-family: 'Open Sans', sans-serif;
+             margin-left:20px;
+             margin-right:20px;
+}
+
+
+.maintitle h1{font-family: 'Rock Salt', cursive;
+       font-size: 50px;
+       color: white;
+       position: absolute;
+       top: 20%;
+       left: 30%;
+       /*background-color:#BCE7F6;*/
+       display: block;
+       padding: 5px;
+       justify-content:center;}
+
+       
+.homepageimage img{position: relative;
+                 width:100%;
+                 height: auto;
+                 padding: 5px;
+                 /*justify-content:center;*/
+            
+}
+
+.maintitle h2{
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: 'Rock Salt', cursive;
+}
+
+.spain p{font-family:'Open Sans', sans-serif;}
